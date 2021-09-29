@@ -3,9 +3,9 @@ from datetime import datetime
 from freezegun import freeze_time
 from mock import call, create_autospec
 import pytest
-from pytest_testrail import plugin
-from pytest_testrail.plugin import PyTestRailPlugin, TESTRAIL_TEST_STATUS
-from pytest_testrail.testrail_api import APIClient
+from pytest_testrail_appetize import plugin
+from pytest_testrail_appetize.plugin import PyTestRailPlugin, TESTRAIL_TEST_STATUS
+from pytest_testrail_appetize.testrail_api import APIClient
 
 pytest_plugins = "pytester"
 

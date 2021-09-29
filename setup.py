@@ -7,15 +7,16 @@ def read_file(fname):
 
 
 setup(
-    name='pytest-testrail',
+    name='appetize/pytest-testrail',
     description='pytest plugin for creating TestRail runs and adding results',
     long_description=read_file('README.rst'),
-    version='2.9.0',
-    author='Allan Kilpatrick',
-    author_email='allanklp@gmail.com',
-    url='http://github.com/allankp/pytest-testrail/',
+    version='1.0.0',
+    author='Appetize',
+    author_email='chris.williams@appetize.com',
+    download_url='https://github.com/AppetizeAutomation/pytest-testrail/archive/refs/tags/v1.0.0.tar.gz',
+    url='https://github.com/AppetizeAutomation/pytest-testrail',
     packages=[
-        'pytest_testrail',
+        'appetize/pytest-testrail',
     ],
     package_dir={'pytest_testrail': 'pytest_testrail'},
     install_requires=[
