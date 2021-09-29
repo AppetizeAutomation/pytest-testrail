@@ -14,7 +14,7 @@ FAKE_NOW = datetime(2015, 1, 31, 19, 5, 42)
 MILESTONE_ID = 5
 PROJECT_ID = 4
 PYTEST_FILE = """
-    from pytest_testrail.plugin import testrail, pytestrail
+    from pytest_testrail_appetize.plugin import testrail, pytestrail
     @testrail('C1234', 'C5678')
     def test_func():
         pass

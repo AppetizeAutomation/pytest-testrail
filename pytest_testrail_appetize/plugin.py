@@ -80,7 +80,7 @@ def testrail(*ids):
 
     :return pytest.mark:
     """
-    deprecation_msg = ('pytest_testrail: the @testrail decorator is deprecated and will be removed. Please use the '
+    deprecation_msg = ('pytest_testrail_appetize: the @testrail decorator is deprecated and will be removed. Please use the '
                        '@pytestrail.case decorator instead.')
     warnings.warn(deprecation_msg, DeprecatedTestDecorator)
     return pytestrail.case(*ids)
